@@ -1,0 +1,4 @@
+trainSet=500
+testSet=100
+start=0 0
+stop=100 50
