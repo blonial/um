@@ -1,0 +1,6 @@
+Wybrane filmy pochodzą z n (17) różnych kategorii
+cechy 1-17 oznaczają, czy oceniony film należy do n-tej kategorii
+cecha 18 - znormalizowany budżet filmu
+cecha 19 - znormalizowana średnia ocena w tmbd
+cecha 20 - znormalizowana ilość ocen w tmbd
+cecha 21 - znormalizowana popularność

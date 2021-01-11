@@ -1,0 +1,3 @@
+Zaproponowana miara podobieństwa to odległość Euklidesowa
+d(a,b) = sqrt{ sum_{i=1}^{n} (x_{ai} - x{b-i})^{2} }
+Odległości liczono dla k=16 sąsiadóww
