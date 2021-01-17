@@ -1,0 +1,6 @@
+Zaproponowana miara podobieństwa to wartość bezwzględa różnicy między ocenami użytkowników tego samego filmu pomniejszona o ilość ocen tych samych filmów pomnożona przez 0.01
+d = (sum_{i=1}^{n}|g1 - g2|) - n * 0.01,
+gdzie g1 to ocena użytkownika dla filmu f1, dla którego szukamy oceny dla filmu f2 
+a g2 to ocena użytkownika dla filmi f1, który ocenił już wcześniej film f2,
+n to liczba filmów, które zostały ocenione przez obu użytkowników
+Odległości liczono dla k=16 sąsiadów

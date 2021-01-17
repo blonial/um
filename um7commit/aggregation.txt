@@ -1,0 +1,12 @@
+Procedura agregacji:
+1) weź wszystkich użytkowników, którzy ocenili film, dla którego szukana jest ocena (f1)
+2) oblicz miarę podobieństwa użytkowników (u1 - użytkownik dla którego jest szukana ocena, u2 - użytkownik który ocenił film f1)
+    -> weź oceny użytkownika u1
+    -> weź oceny użytkownika u2
+    -> jeśli użytkownik u1 ocenił ten sam film co u2
+        -> zwiększ dystans między nimi o wartość bezwzględną różnicy ocen u1 i u2
+        -> zwiększ licznik ilości filmów, które ocenili obaj użytkownicy
+    -> jeśli ocenili co najmniej jeden ten sam film - zwróć dystans, w przeciwnym wypaku - zwróć dużą liczbę
+3) posortuj użytkowników względem dystansu
+4) wybierz k użytkowników, który mieli najmiejszy dystans
+5) weź ocenę innych użytkowników, która powtarza się najczęściej
